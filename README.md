@@ -1,5 +1,7 @@
 # Executor Python Internal
 
+AUTORA: KAUA DOS SANTOS  + CHATGPT
+
 Executor Python avançado, totalmente **independente do Python instalado no sistema**, com suporte a:
 
 - **Python internal** (versão 3.10.10) incluída no pacote  
@@ -15,13 +17,10 @@ Executor Python avançado, totalmente **independente do Python instalado no sist
 ## 📦 Estrutura do projeto
 
 ExecutorPython/
-├─ executor.py # Código principal do Executor
 ├─ pythontudo/ # Python internal (3.10.10)
 │ ├─ python.exe
 │ └─ Lib/
 │ └─ tkinter/ # Inclui ttk e outros módulos
-├─ icon.ico # Ícone opcional do EXE
-├─ installer.nsi # Script do instalador NSIS
 └─ README.md
 
 
